@@ -24,7 +24,7 @@ def agregar_cancion(playlist):
     else:
         playlist.append(cancion)
         playlist.sort() 
-        print(f" '{cancion}' Hola Cristian.")
+        print(f" '{cancion}' fue agregada a la playlist.")
         mostrar_playlist(playlist)  
 
 
