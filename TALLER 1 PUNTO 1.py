@@ -24,8 +24,8 @@ def agregar_cancion(playlist):
     else:
         playlist.append(cancion)
         playlist.sort() 
-        print(f" '{cancion}' fue agregada a la cristian.")
-        mostrar_playlist(playlist)  
+        print(f" '{cancion}' fue agregada a la playlist.")
+ 
 
 
 def eliminar_cancion(playlist):
